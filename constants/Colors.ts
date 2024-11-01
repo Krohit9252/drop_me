@@ -7,6 +7,11 @@ const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const Colors = {
+  BHAGWA:'#28b463',
+  WHITE:'#FFFFFF',
+  PRIMARY:'#000',
+  GRAY:'#808080',
+  BUTTONC:'#8e44ad',
   light: {
     text: '#11181C',
     background: '#fff',
