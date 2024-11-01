@@ -59,7 +59,7 @@ const DrawerNavigator = ({ handleLogout, handleSignInSuccess, globalState }) => 
             />
             {globalState.email ? (
                 <Drawer.Screen
-                    name="Logout"
+                    name="Logout" 
                     component={() => {
                         handleLogout(); // Call logout function
                         return null; // Prevent rendering a separate screen
