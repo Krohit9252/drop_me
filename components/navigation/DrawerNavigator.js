@@ -17,7 +17,7 @@ const DrawerNavigator = ({ handleLogout, handleSignInSuccess, globalState }) => 
     return (
         <Drawer.Navigator>
             <Drawer.Screen
-                name="HomeTabs"
+                name="HomeTabs" 
                 component={TabNavigator}
                 options={{ title: 'DropMe' }}
             />
